@@ -14,7 +14,7 @@ import CTA from './sections/CTA';
 function App() {
   return (
     <>
-      <header className='flex justify-between px-[20px] py-[12px]'>
+      <header className='flex justify-between px-[20px] py-[12px] md:py-[20px]'>
         <div className='flex items-center gap-[2px]'>
           <img 
             src={logo} alt="logo do site de agência de marketing" 
@@ -28,7 +28,7 @@ function App() {
         </button>
       </header>
 
-      <main className='flex flex-col gap-[140px]'>
+      <main className='flex flex-col gap-[140px] md:gap-[200px]'>
         <Hero/>
         <Services/>
         <Steps/>
@@ -38,7 +38,7 @@ function App() {
       </main>
 
       <footer className='bg-[#f5f5f5] flex flex-col mt-[140px]'>
-        <section className='flex justify-around mt-[25px]'>
+        <section className='flex justify-around mt-[25px] md:justify-between md:px-[20px] md:flex-col'>
           <div className='flex items-center gap-[2px]'>
             <img 
               src={logo} alt="logo do site de agência de marketing" 
@@ -47,14 +47,14 @@ function App() {
             <h1 className='text-main font-bold text-[22pt]'>BusiLess</h1>
           </div>
 
-          <div className='flex gap-[5px] items-center'>
+          <div className='flex gap-[5px] items-center md:mt-[10px]'>
             <img src={linkedin} alt="logo Linkedin" className='w-[30px] h-[30px]'/>
             <img src={facebook} alt="logo Facebook" className='w-[30px] h-[30px]'/>
             <img src={instagram} alt="logo Instagram" className='w-[30px] h-[30px]'/>
           </div>
         </section>
 
-        <section className='flex flex-col mt-[30px] px-[20px] gap-[20px]'>
+        <section className='flex flex-col mt-[30px] px-[20px] gap-[20px] md:flex-row md:self-center md:justify-around md:w-[100%] md:mt-[40px]'>
           <div>
             <h4 className='font-bold text-[18pt]'>Empresa</h4>
             <ul className='text-[12pt]'>
@@ -83,12 +83,14 @@ function App() {
           </div>
         </section>
 
-        <div className='w-[100%] flex bg-main text-light text-[10pt] font-semibold justify-center py-[10px] mt-[60px]'>
-          <p className=''>&copy; {new Date().getFullYear()} BusiLess. Todos os direitos reservados.</p>
+
+        <div className='w-[100%] flex flex-col items-center bg-main text-light text-[10pt] justify-center py-[10px] mt-[60px] gap-2'>
+          <p>Desenvolvido por <a className='font-bold' href="https://zunbee.com.br">ZunBee</a>.</p>
+          <p className='font-semibold'>&copy; {new Date().getFullYear()} BusiLess. Todos os direitos reservados.</p>
         </div>
       </footer>
     </>
   )
 }
 
-export default App
+export default App;

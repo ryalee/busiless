@@ -17,4 +17,17 @@
 body {
   font-family: Poppins;
   background-color: var(--color-light);
+  color: var(--color-dark);
+}
+
+.title {
+  @apply text-[20pt] md:text-[25pt]
+}
+
+.subtitle {
+  @apply text-[15pt] md:text-[20pt] text-accent mt-[20px]
+}
+
+.service_card {
+  @apply border-3 border-dark w-[320px] h-[320px] rounded-[25px]
 }
