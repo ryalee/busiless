@@ -21,13 +21,13 @@ body {
 }
 
 .title {
-  @apply text-[20pt] md:text-[25pt]
+  @apply text-[20pt] md:text-[25pt] font-semibold
 }
 
 .subtitle {
-  @apply text-[15pt] md:text-[20pt] text-accent mt-[20px]
+  @apply text-[15pt] md:text-[20pt] text-accent mt-[20px] md:w-[80%] text-center md:self-center
 }
 
 .service_card {
-  @apply border-3 border-dark w-[320px] h-[320px] rounded-[25px]
+  @apply border-3 border-dark w-[320px] h-[320px] rounded-[25px] md:w-[300px]
 }

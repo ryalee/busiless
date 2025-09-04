@@ -9,7 +9,7 @@ function Steps() {
         <p className='subtitle'>Sabemos que não existem dois negócios iguais. É por isso que dedicamos tempo para entender o que faz o seu ser <span className='text-main font-bold'>único.</span></p>
       </div>
 
-      <div className='flex mt-[40px] md:gap-4 md:px-[20px]'>
+      <div className='flex mt-[40px] md:gap-8 md:px-[20px] md:justify-center'>
         <img 
           src={steps_img} 
           className='md:w-[480px] md:h-[500px] hidden md:flex'

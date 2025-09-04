@@ -13,7 +13,7 @@ function Services() {
         <p className='subtitle'>Do básico ao avançado, a gente cuida do que importa para sua presença digital.</p>
       </div>
 
-      <div className='flex flex-col items-center mt-[40px] gap-[40px] md:w-[70%] md:gap-[20px] md:grid md:grid-cols-2 md:mx-auto'>
+      <div className='flex flex-col items-center mt-[40px] gap-[40px] md:flex-row md:justify-center'>
         <article className='service_card'>
           <div className='bg-dark rounded-tl-[20px] rounded-br-[20px] p-[10px] w-[120px] h-[120px] items-center'>
             <img src={speaker} alt="icone anuncios estratégicos para captação e conversão de leads" />

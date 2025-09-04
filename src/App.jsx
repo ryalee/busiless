@@ -23,8 +23,8 @@ function App() {
           <h1 className='text-main font-bold text-[22pt]'>BusiLess</h1>
         </div>
 
-        <button className='flex bg-main text-light font-bold text-[12pt] items-center w-[137px] justify-center rounded-[15px] gap-[1px]'>
-          Impulsionar <img src={rocket} className='w-[27px] h-[27px]' />
+        <button className='flex bg-main text-light font-bold text-[12pt] items-center w-[137px] gap-[1px] md:w-[200px] justify-center rounded-[15px] md:gap-[15px]'>
+          Impulsionar <img src={rocket} className='w-[27px] h-[27px] md:w-[30px] md:h-[30px]'/>
         </button>
       </header>
 

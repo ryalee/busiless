@@ -10,7 +10,7 @@ function Hero() {
           <h1 className='text-[30pt]'>Marketing que não complica: <span className='text-accent font-bold'>resultados</span> reais para seu negócio crescer.</h1>
           <img 
             src={arrow}
-            className='w-[195px] absolute mt-[240px] md:mt-[180px]'
+            className='w-[195px] absolute mt-[240px] md:mt-[120px]'
           />
 
           <p className='mt-[20px] text-[20pt]'>
